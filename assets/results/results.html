@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Awesome Quiz App</title>
+    <link rel="stylesheet" href="../../assets/css/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.1.1/css/all.css" integrity="sha384-/frq1SRXYH/bSyou/HUp/hib7RVN1TawQYja658FEOodR/FQBKVqT9Ol+Oz3Olq5" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container">
+        <div id="results" class="flex-center flex-column">
+            <h1 id="finalScore">0</h1>
+            <form class="results-form-container">
+                <h2 id="results-text">Enter your initals below to save your score!</h2>
+                <input type="text" initials="initials" id="username" placeholder="Enter your initials">
+                <button class="btn" id="saveScoreBtn" type="submit" onclick="saveHighScore(event)" disabled>Save</button>
+            </form>
+            <a href="../../assets/quiz/quiz.html" class="btn">Play Again?</a>
+            <a href="../../index.html" class="btn">Go home<i class="fas fa-crown"></i></a>
+        </div>
+    </div>
+    
+    <script src="./results.js"></script>
+    
+</body>
+</html>
