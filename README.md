@@ -25,3 +25,6 @@ THEN I can save my initials and my score
 Screenshot that I have provided below using Snipping Tool
 
 ![Screenshot](./assets/Mock-Up.JPG)
+
+
+LINK TO DEPLOYED APPLICATION: [CLICK HERE](https://csareyj.github.io/Javascript-Quiz/)
